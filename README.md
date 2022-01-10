@@ -1,8 +1,10 @@
-### Desafio: Sistema de Avaliação de Credito
+### Desafio: Sistema de Avaliação de Crédito
 
 Dado o **cenário** abaixo, elabore uma sugestão para o back-end necessária para resolver o problema.
+
 Demonstre fluxos, telas, protótipos e/ou codificação.
-Motivação das suas escolhas (por que você decidiu fazer a solução).
+
+A motivação clara das suas escolhas (por que você decidiu fazer a solução).
 
 ***i. Cadastro de clientes***
 
