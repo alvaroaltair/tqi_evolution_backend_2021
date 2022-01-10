@@ -33,4 +33,4 @@ A motivação clara das suas escolhas (por que você decidiu fazer a solução).
 2. Use todos os seus conhecimentos adquiridos no bootcamp para explorar bem a solução. Não se preocupe, porque não existe certo ou errado. Só queremos conhecer um pouco mais sobre você.
 3. Utilize o GitHub para repositório de código.
 
-**Obs: ** Criar uma tag no GitHub chamada tqi_evolution_avaliacao. 
+**Obs:** Criar uma tag no GitHub chamada tqi_evolution_avaliacao. 
