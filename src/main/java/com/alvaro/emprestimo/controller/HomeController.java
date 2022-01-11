@@ -1,4 +1,4 @@
-package controller;
+package com.alvaro.emprestimo.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

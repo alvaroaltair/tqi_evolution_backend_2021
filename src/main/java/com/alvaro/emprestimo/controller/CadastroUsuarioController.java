@@ -1,4 +1,4 @@
-package controller;
+package com.alvaro.emprestimo.controller;
 
 import com.alvaro.emprestimo.domain.AuthorityEntity;
 import com.alvaro.emprestimo.domain.ClienteEntity;
