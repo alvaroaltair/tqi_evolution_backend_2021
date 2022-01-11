@@ -9,32 +9,32 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 
 public class UsuarioDTO {
-    @NotBlank(message = "O nome não pode estar em branco")
+    @NotBlank
     private String nome;
 
-    @NotBlank(message = "O e-mail não pode estar em branco")
+    @NotBlank
     @EmailValid
     @Email
     private String email;
 
-    @NotBlank(message = "A senha não pode estar em branco")
+    @NotBlank
     private String senha;
 
-    @NotBlank(message = "O RG não pode estar em branco")
+    @NotBlank
     private String rg;
 
-    @NotBlank(message = "O CPF não pode estar em branco")
-    @CPF(message = "Informe um CPF válido")
+    @NotBlank
+    @CPF
     private String cpf;
 
-    @NotBlank(message = "A renda não pode estar em branco")
-    @Min(value = 1, message = "A renda não pode ser zero")
+    @NotBlank
+    @Min(value = 1)
     private String renda;
 
-    @NotBlank(message = "O endereço não pode estar em branco")
+    @NotBlank
     private String endereco;
 
-    @NotBlank(message = "O complemento não pode estar em branco")
+    @NotBlank
     private String complemento;
 
     public ClienteEntity toUsuario() {
@@ -45,7 +45,6 @@ public class UsuarioDTO {
         novoCliente.setCpf(cpf);
         novoCliente.setRg(rg);
         novoCliente.setEndereco(endereco);
-        // novoCliente.setRenda(Float.parseFloat(renda));-
         novoCliente.setSenha(senha);
 
         return novoCliente;

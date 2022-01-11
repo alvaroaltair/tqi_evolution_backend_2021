@@ -57,6 +57,6 @@ public class CadastroUsuarioController {
         usuarioRepository.save(novoUsuario);
         authorityRepository.save(authority);
 
-        return "home";
+        return "index";
     }
 }

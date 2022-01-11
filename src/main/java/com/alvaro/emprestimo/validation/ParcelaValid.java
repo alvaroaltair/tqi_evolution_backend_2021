@@ -13,8 +13,6 @@ import java.lang.annotation.Target;
 
 public @interface ParcelaValid {
 
-    String message() default "A data da primeira parcela deve ser no máximo 3 meses após o dia atual";
-
     Class<?>[] groups() default {};
 
     Class<? extends Payload>[] payload() default {};

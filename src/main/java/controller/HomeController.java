@@ -8,11 +8,11 @@ public class HomeController {
 
     @GetMapping("/api/")
     public String inicio() {
-        return "home";
+        return "index";
     }
 
-    @GetMapping("/api/home")
+    @GetMapping("/api/index")
     public String home() {
-        return "home";
+        return "index";
     }
 }
